@@ -30,9 +30,9 @@ function submitAnswers(){
 	var answers = ['b', 'a', 'd', 'b', 'd'];
 
 	//check submitted answers against corret answers.
-	if(q1 == answers[0]){
-		score = score + 1;
-	}
+	//if(q1 == answers[0]){
+//		score = score + 1;
+//	}
 	
 	for(i = 1; i <= total; i++){
 		if(eval('q'+i) == answers[i - 1]){ //since array begins at 0
